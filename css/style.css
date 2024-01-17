@@ -1,0 +1,52 @@
+body {
+    background-color: #352F44;
+    font-family: Lucida Sans;
+    text-align: center;
+    color: white;
+  }
+  
+  h3{
+    font-size: smaller;
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  #kalkulator {
+    margin-top: 10px;
+  }
+  
+  #sisi,  #luas, #keliling {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  
+  
+  button{
+    border-radius: 20px;
+    padding: 12px 18px;
+    background-color: #5C5470;
+    color: white;
+    margin: 10px;
+    
+  }
+   
+  button:hover{
+    background-color: #B9B4C7;
+  }
+  
+  button:active{
+    background-color: #B9B4C7;
+    transform: translateY(2px);
+  }
+  
+  #myCanvas{
+      width: 150px;
+      height: 150px;
+      border: 3px solid white;
+      margin: 20px;
+  }
+  
